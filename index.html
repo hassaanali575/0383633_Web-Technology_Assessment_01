@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio Website</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<script src="https://kit.fontawesome.com/2f61b8c04f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!------Background Picture------>
+
+<div id="Container">
+<div class="Container-1" id="image" style="width: 100%;
+height: 110vh;
+background-image: url('../images/top-view-agenda-glasses-pencil.jpg');
+background-size: cover;
+background-position: center;
+"> 
+
+<!------Navigation Section------>
+
+<nav>
+	<img src="../images/plug-earring-com-discounts-and-allowances-coupon-ear-185036f7cdfeeabdb4f8879844a043a2.png" class="logo">
+	<ul id="sidemenu">
+		<li><a href="#header">Home</a></li>
+		<li><a href="#about">About</a></li>
+		<li><a href="#services">Services</a></li>
+		<li><a href="#design">Portfolio</a></li>
+		<li><a href="#contact-section">Contact</a></li>
+		<i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+	</ul>
+	<i class="fa-solid fa-bars"  onclick="openmenu()"></i>
+</nav>	
+
+<!-----Main Page Text----->
+
+<div class="header-text">
+	<h1>Hi, I'm  <span>Hassaan Ali </span> <br>  from ULAW</h1>
+	<div class="wrapper">
+		<div class="static-txt">I'm </div>
+		<ul class="dynamic-txts">
+		  <li><span>Full Stack Web Developer</span></li>
+		  <li><span>Frontend Web Developer</span></li>
+		  <li><span>Backend Web Developer</span></li>
+		  <li><span>Application Developer</span></li>
+		</ul>
+		</div>
+	</div>
+</div>	
+</div>
+
+<!-----Services Section----->
+
+<div id="services">
+	<div class="container-3">
+	<h1 class="sub-title">My Services</h1>	
+	<div class="services-list">
+	<div>
+		<i class="fa-solid fa-code"></i>
+		<h2>Frontend Web Developer</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		consequat. Duis aute irure dolor</p>
+		<a href="#">Learn More</a>
+	</div>	
+
+	<div>
+		<i class="fa-sharp fa-solid fa-crop"></i>
+		<h2>Backend Web Developer</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		consequat. Duis aute irure dolor</p>
+		<a href="#">Learn More</a>
+	</div>	
+
+	<div>
+		<i class="fa-brands fa-app-store"></i>
+		<h2>Application Developer</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		consequat. Duis aute irure dolor</p>
+		<a href="#">Learn More</a>
+	</div>	
+	</div>
+	</div>
+</div>
+
+<!-----About Section----->
+
+<div id="about">
+<div class="Container-2">
+	<div class="row">
+		<div class="about-col-1"><img src="../images/InShot_20240121_230638723-removebg-preview.png"></div>
+		<div class="about-col-2"><h1 class="sub-title">About Me</h1>
+		<p>My name is Hassaan Ali. I'm doing MSC Computer Science from University of Law Bloomsbury Campus London, England. I have been graduated from COMSATS University Islamabad Lahore Campus, Pakistan. I am a Web Developer and UI/UX Designer. </p>
+
+		<div class="tab-titles">
+			<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+			<p class="tab-links" onclick="opentab('experience')">Experience</p>
+		</div>
+		<div class="tab-contents active-tab"  id="skills">
+		<ul>
+			<li><span>Frontend Web Development </span><br>Developmenting Interactive Website</li>
+			<li><span>Backend Web Development</span> <br>Developmenting Complex Backend</li>
+			<li><span>App Development</span><br>Building Android iOS/apps</li>
+		</ul>	
+		</div>
+
+		<div class="tab-contents" id="experience">
+		<ul>
+			<li><span>2024 - Current</span><br>Full Stack Web Developer </li>
+			<li><span>2021 - 2022 </span><br>Frontend Web Developer</li>
+		</ul>	
+		</div>
+		</div>
+	</div>
+</div>	
+</div>
+
+<!-----My Work Section----->
+
+<div id="design">
+<div class="container-4">
+	<h1 class="sub-title">My work</h1>
+	<div class="design-list">
+		<div class="work">
+			<img src="../images/image1.jpeg">
+			<div class="layer">
+				<h3>Buy/Selling Web</h3>
+				<p>This Website Provide you to buy and selling any product from anywhere of the world</p>
+				<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+			</div>
+		</div>
+		<div class="work">
+			<img src="../images/image2.webp">
+			<div class="layer">
+				<h3>Video Downloader Website</h3>
+				<p>This Web is Use for download the video from any source </p>
+				<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+			</div>
+		</div>
+		<div class="work">
+			<img src="../images/image3.webp">
+			<div class="layer">
+				<h3>Car Selling/Buying App</h3>
+				<p>This App help you to buy and selling your selling from anywhere of the world</p>
+				<a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+			</div>
+		</div>
+	</div>
+	<a href="" class="button-1">See more</a>
+</div>
+
+<!-----Contact Me Section----->
+
+<div id="contact-section">
+	<div class="container-5">
+		<h1 class="sub-title">Contact Me</h1>
+		<div class="row">
+		<div class="cont-col-left">
+		</div>	 
+			<div class="cont-col-right">
+			<p> <i class="fa-light fa-paper-plane"></i>hassaan.ali33@law.ac.uk</p>
+			<p><i class="fa-solid fa-phone"></i>0782751688</p>
+			<div class="icons">
+				<a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+				<a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+				<a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+				<a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+			</div>
+			<button onclick="downloadPdf()" id="download"> Download PDF</button>
+			</div>	 
+		</div>
+	</div>
+	
+</div>
+	
+<!-----JavaScript Code----->
+
+<script>
+var imageSources = ["../images/top-view-agenda-glasses-pencil.jpg", "../images/pxfuel.jpg"];
+var index = 0;
+setInterval(function() {
+    if (index === imageSources.length) {
+        index = 0;
+    }
+    document.getElementById("image").style.backgroundImage = 'url(' + imageSources[index] + ')';
+    index++;
+}, 2000);
+
+	var tablinks = document.getElementsByClassName("tab-links");
+	var tabcontents = document.getElementsByClassName("tab-contents");
+	function opentab(tabname){
+		for(tablink of tablinks){
+			tablink.classList.remove("active-link");
+		}
+		for(tabcontent of tabcontents){
+			tabcontent.classList.remove("active-tab");
+		}
+		event.currentTarget.classList.add("active-link");
+		document.getElementById(tabname).classList.add("active-tab");
+	}
+</script>
+
+<script>
+	var sidemenu =document.getElementById("sidemenu");
+		function openmenu(){
+			sidemenu.style.right = "0";
+		}
+			function closemenu(){
+			sidemenu.style.right = "-200px";
+			
+		}
+		function downloadPdf() {
+
+  const pdfUrl = '../images/0383633_HassaanAli_WebTech.pdf';
+  const link = document.createElement('a'); 
+  link.href = pdfUrl;
+  link.download = 'IbrahimResume (2).pdf';
+  document.body.appendChild(link);
+   link.click();
+  document.body.removeChild(link);
+}
+</script>
+
+</body>
+</html>
